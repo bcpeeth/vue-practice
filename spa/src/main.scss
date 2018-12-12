@@ -1,0 +1,11 @@
+@import './scss/normalize.scss';
+@import './scss/navigation.scss';
+// @import './scss/button.scss';
+// @import './scss/image.scss';
+
+body, html{
+    height: 100%;
+    background-color: rgb(204, 204, 189);
+    // display: flex;
+    // flex-wrap: nowrap;
+}
