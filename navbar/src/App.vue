@@ -1,28 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
     <Navigation></Navigation>
+    <HeroImage></HeroImage>
+    <router-view/>
+    
   </div>
 </template>
 
 <script>
 import Navigation from './components/Navigation'
+import HeroImage from './components/HeroImage'
 export default {
   name: 'app',
   components: {
-    'Navigation': Navigation
+    'Navigation': Navigation,
+    'HeroImage': HeroImage
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

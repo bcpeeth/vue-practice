@@ -1,0 +1,28 @@
+@import './scss/bootstrap/bootstrap.scss';
+@import './scss/normalize.scss';
+@import './scss/navbar.scss';
+@import './scss/image.scss';
+
+
+body, html{
+    height: 100vh;
+    // background-color: lightblue;
+}
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #1184f8;
+    // margin-top: 160px;
+}
+
+.bg-grey {
+    background-color: gray;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 auto;
+}
