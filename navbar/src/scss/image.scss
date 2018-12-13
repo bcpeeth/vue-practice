@@ -16,3 +16,17 @@
 .hero-img__design {
     // background-image: url(../assets/hero.png);
 }
+
+.flex-row {
+    align-items: center;
+}
+
+.img-block {
+    img{
+        max-height: 40vh;
+        width: 100%;
+        object-fit: contain;
+
+    }
+
+}

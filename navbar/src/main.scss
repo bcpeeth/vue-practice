@@ -2,6 +2,8 @@
 @import './scss/normalize.scss';
 @import './scss/navbar.scss';
 @import './scss/image.scss';
+@import './scss/text-block.scss';
+@import './scss/footer.scss';
 
 
 body, html{
@@ -20,9 +22,4 @@ body, html{
 
 .bg-grey {
     background-color: gray;
-}
-
-.container {
-    max-width: 70vw;
-    margin: 0 auto;
 }
