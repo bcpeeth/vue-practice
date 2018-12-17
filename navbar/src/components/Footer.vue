@@ -1,7 +1,11 @@
 <template>
-  <div class="footer text-block">
-    <h1>Footer</h1>
-    <p>This is the footer text</p>
+  <div class="container">
+    <div>
+    <div class="text-block py-md-5 bg-beige">
+      <h1>Footer</h1>
+      <p>This is the footer text</p>
+    </div>
+    </div>
   </div>
 </template>
 

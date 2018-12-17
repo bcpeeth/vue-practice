@@ -1,13 +1,11 @@
-<template>
-  <div>
-    <!-- <h2>Nav Bar</h2> -->
+<template>  
     <nav class="navbar">
-      <!-- <v-btn to="/about">About</v-btn> -->
+      <div class="container">
       <router-link class="navbar-btn" v-for="routes in links" 
       v-bind:key="routes.id"
       :to="`${routes.page}`">{{routes.text}}</router-link>
+      </div>
     </nav>
-  </div>
 </template>
 
 <script>

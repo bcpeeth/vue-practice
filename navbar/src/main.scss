@@ -9,17 +9,20 @@
 body, html{
     height: 100vh;
     // background-color: lightblue;
+    // text-align: left;
 }
 
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
     color: #1184f8;
-    // margin-top: 160px;
 }
 
-.bg-grey {
-    background-color: gray;
+.bg-gray {
+    background-color: $gray-200;
+}
+
+.bg-beige {
+    background-color: bisque;
 }
