@@ -1,21 +1,21 @@
 <template>
   <div id="app">
     <Navigation></Navigation>
-    <HeroImage></HeroImage>
+    <!-- <HeroImage></HeroImage> -->
     <router-view/>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Navigation from './components/Navigation'
-import HeroImage from './components/HeroImage'
-import Footer from './components/Footer'
+import Navigation from './components/layout/Navigation'
+// import HeroImage from './components/HeroImage'
+import Footer from './components/layout/Footer'
 export default {
   name: 'app',
   components: {
     'Navigation': Navigation,
-    'HeroImage': HeroImage,
+    // 'HeroImage': HeroImage,
     'Footer': Footer,
   }
 }
