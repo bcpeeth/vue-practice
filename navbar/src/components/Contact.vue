@@ -1,13 +1,15 @@
 <template>
   <div>
     <HeroImage/>
-    <h1>Contact Me</h1>
-    <p>
-      <ul>
-        <li>Email: {{email}}</li>
-        <li>Website: <a href="http://webolution.nl/">{{web}}</a></li>
-      </ul>
-    </p>
+    <div class="container">
+      <h1>Contact Me</h1>
+      <p>
+        <ul>
+          <li>Email: {{email}}</li>
+          <li>Website: <a href="http://webolution.nl/">{{web}}</a></li>
+        </ul>
+      </p>
+    </div>
   </div>
 </template>
 
