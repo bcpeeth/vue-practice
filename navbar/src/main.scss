@@ -16,11 +16,23 @@ body, html{
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #1184f8;
+    color: #696969;
     text-align: left;
     // background-color: $gray-200;
 }
 
 .bg-beige {
     background-color: bisque;
+}
+
+.bg-blue {
+    width: 100%;
+    background-color: #00A3AD;
+    color: white;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+
 }
