@@ -1,8 +1,8 @@
 @import './scss/bootstrap/bootstrap.scss';
 @import './scss/normalize.scss';
 @import './scss/navbar.scss';
-@import './scss/image.scss';
-@import './scss/text-block.scss';
+@import './scss/images.scss';
+@import './scss/typography.scss';
 @import './scss/footer.scss';
 @import './scss/list.scss';
 
@@ -30,6 +30,10 @@ body, html{
     width: 100%;
     background-color: #00A3AD;
     color: white;
+}
+
+.bg-lightgrey {
+    background-color: #F8F8F8;
 }
 
 .flex-center {

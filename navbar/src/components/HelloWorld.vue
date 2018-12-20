@@ -3,12 +3,12 @@
     <HeroImage/>
     <div class="container"> <!--intro -->
       <div class="row flex-center py-5">
-        <div class="col-md-6 text-block">
+        <div class="col-md-5 offset-md-1 text-block">
           <h1>Oprichting</h1>
           <p>De Flexim Foundation is opgericht op 3 juli 2018 in Dordrecht op initiatief van een aantal medewerkers van Flexim Netherlands.</p>
           <p>De Flexim Foundation zet zich in voor diverse kwetsbare groepen binnen en buiten de Nederlandse samenleving. Deze kwetsbare groepen worden geholpen om hun levenscondities te verbeteren en toekomstperspectief te vergroten.</p>
         </div>
-        <div class="col-md-6 img-block">
+        <div class="col-md-6 img-block img-block-reduce">
           <img src="../assets/Tekengebied.png" alt="">
         </div>
       </div>
@@ -19,7 +19,7 @@
           <div class="col-md-7 text-center text-block">
             <h1>Doelstelling</h1>
             <p>“De Flexim Foundation stelt zich ten doel de levenscondities en toekomstmogelijkheden van kwetsbare groepen (in de Nederlandse samenleving en daarbuiten) te verbeteren. De Flexim Foundation tracht dit doel te bereiken door financiële ondersteuning van en actieve bijdrage aan de uitvoering van projecten conform het gestelde doel.”</p>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
@@ -43,35 +43,61 @@
 
       </div>
     </div>
-    <div class="container board-members text-center">
-      <div class="row">
+    <div class="bg-lightgrey">
+      <div class="container">
+        <div class="row flex-center py-3">
+          <div class="col-md-5 offset-md-1 text-block">
+            <h1>Doelgroep</h1>
+            <p>De doelgroep van de Flexim Foundation is een groep mensen in de samenleving die niet zelfredzaam is, eenzaam is, een lichamelijke of psychische handicap heeft of op of onder de armoedegrens leeft.</p>
+          </div>
+          <div class="col img-block img-block-reduce">
+            <img src="../assets/flexim-development.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container text-center"> <!--board members-->
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-7">
+          <h3>Bestuur</h3>
+          <p>Het Dagelijks Bestuur van de stichting wordt gevormd door dhr. Q.A.J.M. Tak, voorzitter, dhr. R.G. Bruins, secretaris en mw P. Veldhuizen, penningmeester. De Bestuursleden en adviseur werken geheel onbezoldigd.
+          </p>
+        </div>
+      </div>
+      <div class="row board-members py-5">
         <div class="col">
           <img class="" src="../assets/board-member1.png">
-          <h5>Rini Tak</h5>
+          <h6>Rini Tak</h6>
+          <br />
           <span>Voorzitter</span>
           <p>Vanuit zijn passie al jarenlang betrokken bij diverse stichtingen.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member2.png">
-          <h5>Patty van Veldhuizen</h5>
+          <h6>Patty van Veldhuizen</h6>
+          <br />
           <span>Penningmeester</span>
           <p>Als fiscalist altijd de focus op financieel beheer.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member3.png">
-          <h5>Richard Bruins</h5>
+          <h6>Richard Bruins</h6>
+          <br />
           <span>Secretaris</span>
           <p>Als Directeur Flexim Netherlands de initiatiefnemer en direct betrokken bij diverse goede doelen.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member4.png">
-          <h5>Célie Verstelle</h5>
+          <h6>Célie Verstelle</h6>
+          <br />
           <span>Algemeen Bestuurslid</span>
           <p>Als Legal advisor en haar juridische achtergrond gedreven de juiste support te geven.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member5.png">
-          <h5>Remko Overdam</h5>
+          <h6>Remko Overdam</h6>
+          <br />
           <span>Adviseur</span>
           <p>Als Directeur bij een ontwikkelaar als visionair betrokken bij diverse (maatschappelijke) ontwikkelingen.</p>
         </div>
