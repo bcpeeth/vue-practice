@@ -1,18 +1,23 @@
 <template>
-  <div class="footer">
-    <div class="container py-md-5">
+  <div class="footer bg-lightgrey">
+    <div class="container py-5">
       <div class="row">
         <div class="col text-block">
-          <h1>Location</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3>Disclaimer</h3>
+          <p>Privacy Statement</p>
+          <p>Conditions</p>
         </div>
         <div class="col text-block">
-          <h1>Policy</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3>Contact</h3>
+          <p>Phone: 088-0775577</p>
+          <p>Email: communicatie@fleximfoundation.com</p>
         </div>
         <div class="col text-block">
-          <h1>Contact</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3>Address</h3>
+          <p>Wolwevershaven 30P</p>
+          <p>3311AW Dordrecht</p>
+          <p>Chamber of Commerce number: 72094443</p>
+          <p>RSIN: 858983552</p>
         </div>
       </div>
     </div>

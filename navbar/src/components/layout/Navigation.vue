@@ -16,22 +16,22 @@ export default {
       links: [
         {
           id: 0,
-          text: 'Hello World',
+          text: 'De Stichting',
           page:'/HelloWorld'
         },
         {
           id: 1,
-          text: 'Home',
+          text: 'Nieuws',
           page:'/Home'
         },
         {
           id: 2,
-          text: 'About',
+          text: 'Projecten',
           page:'/About'
         },
         {
           id: 3,
-          text: 'Contact',
+          text: 'Informatie',
           page:'/Contact'
         }
       ]

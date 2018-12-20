@@ -60,7 +60,7 @@
     <div class="container text-center"> <!--board members-->
       <div class="row justify-content-center pt-5">
         <div class="col-md-7">
-          <h3>Bestuur</h3>
+          <h1>Bestuur</h1>
           <p>Het Dagelijks Bestuur van de stichting wordt gevormd door dhr. Q.A.J.M. Tak, voorzitter, dhr. R.G. Bruins, secretaris en mw P. Veldhuizen, penningmeester. De Bestuursleden en adviseur werken geheel onbezoldigd.
           </p>
         </div>
@@ -69,36 +69,31 @@
         <div class="col">
           <img class="" src="../assets/board-member1.png">
           <h6>Rini Tak</h6>
-          <br />
-          <span>Voorzitter</span>
+          <p><span>Voorzitter</span></p>
           <p>Vanuit zijn passie al jarenlang betrokken bij diverse stichtingen.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member2.png">
           <h6>Patty van Veldhuizen</h6>
-          <br />
-          <span>Penningmeester</span>
+           <p><span>Penningmeester</span></p>
           <p>Als fiscalist altijd de focus op financieel beheer.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member3.png">
           <h6>Richard Bruins</h6>
-          <br />
-          <span>Secretaris</span>
+           <p><span>Secretaris</span></p>
           <p>Als Directeur Flexim Netherlands de initiatiefnemer en direct betrokken bij diverse goede doelen.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member4.png">
           <h6>Célie Verstelle</h6>
-          <br />
-          <span>Algemeen Bestuurslid</span>
+           <p><span>Algemeen Bestuurslid</span></p>
           <p>Als Legal advisor en haar juridische achtergrond gedreven de juiste support te geven.</p>
         </div>
         <div class="col">
           <img class="" src="../assets/board-member5.png">
           <h6>Remko Overdam</h6>
-          <br />
-          <span>Adviseur</span>
+           <p><span>Adviseur</span></p>
           <p>Als Directeur bij een ontwikkelaar als visionair betrokken bij diverse (maatschappelijke) ontwikkelingen.</p>
         </div>
       </div>
