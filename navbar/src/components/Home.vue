@@ -3,7 +3,7 @@
     <HeroImage/>
     <div class="container py-md-5">
       <!-- <img class="hero-img" src="../assets/home-hero.jpg"> -->
-      
+
       <h1>Home</h1>
       <p>Here is some information. This is the home page</p>
 

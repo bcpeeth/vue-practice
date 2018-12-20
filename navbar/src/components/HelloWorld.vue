@@ -43,8 +43,39 @@
 
       </div>
     </div>
-    <div class="container">
-      <div class="row"></div>  
+    <div class="container board-members text-center">
+      <div class="row">
+        <div class="col">
+          <img class="" src="../assets/board-member1.png">
+          <h5>Rini Tak</h5>
+          <span>Voorzitter</span>
+          <p>Vanuit zijn passie al jarenlang betrokken bij diverse stichtingen.</p>
+        </div>
+        <div class="col">
+          <img class="" src="../assets/board-member2.png">
+          <h5>Patty van Veldhuizen</h5>
+          <span>Penningmeester</span>
+          <p>Als fiscalist altijd de focus op financieel beheer.</p>
+        </div>
+        <div class="col">
+          <img class="" src="../assets/board-member3.png">
+          <h5>Richard Bruins</h5>
+          <span>Secretaris</span>
+          <p>Als Directeur Flexim Netherlands de initiatiefnemer en direct betrokken bij diverse goede doelen.</p>
+        </div>
+        <div class="col">
+          <img class="" src="../assets/board-member4.png">
+          <h5>Célie Verstelle</h5>
+          <span>Algemeen Bestuurslid</span>
+          <p>Als Legal advisor en haar juridische achtergrond gedreven de juiste support te geven.</p>
+        </div>
+        <div class="col">
+          <img class="" src="../assets/board-member5.png">
+          <h5>Remko Overdam</h5>
+          <span>Adviseur</span>
+          <p>Als Directeur bij een ontwikkelaar als visionair betrokken bij diverse (maatschappelijke) ontwikkelingen.</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
