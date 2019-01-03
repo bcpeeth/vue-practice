@@ -1,10 +1,11 @@
 @import './scss/bootstrap/bootstrap.scss';
 @import './scss/normalize.scss';
 @import './scss/navbar.scss';
-@import './scss/image.scss';
-@import './scss/text-block.scss';
+@import './scss/images.scss';
+@import './scss/typography.scss';
 @import './scss/footer.scss';
 @import './scss/list.scss';
+@import './scss/readmore-toggle.scss';
 
 
 body, html{
@@ -32,8 +33,15 @@ body, html{
     color: white;
 }
 
+.bg-lightgrey {
+    background-color: #f7f7f7;
+}
+
 .flex-center {
     display: flex;
     align-items: center;
+}
 
+.borderline {
+    border-bottom: 1px solid lightgrey;
 }

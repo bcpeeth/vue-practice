@@ -24,10 +24,10 @@
 
 <script>
 import carousel from 'vue-owl-carousel'
-import HeroImage from './HeroImage' 
+import HeroImage from './HeroImage'
 export default {
   name: 'About', //this is the name of the component
-  components: { 
+  components: {
     'HeroImage': HeroImage,
     carousel },
 }
