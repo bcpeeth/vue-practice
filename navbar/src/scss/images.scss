@@ -25,8 +25,6 @@
 }
 
 .img-block {
-    // background-color: beige;
-    // height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -42,6 +40,31 @@
             width: 200px;
         }
     }
+
+    &-contain {
+        img {
+            object-fit: contain;
+            width: 100%;
+            max-height: 305px;
+        }
+    }
+
+    &-stretch {
+        padding: 0;
+
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            max-height: 400px;
+        }
+    }
+
+    // &-first {
+    //     background-image: url(../src/assets/tourdeflexim.jpg);
+    //     background-size: 100%;
+    //     // min-height: 100%;
+    // }
 }
 
 

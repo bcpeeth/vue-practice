@@ -5,6 +5,7 @@
 @import './scss/typography.scss';
 @import './scss/footer.scss';
 @import './scss/list.scss';
+@import './scss/readmore-toggle.scss';
 
 
 body, html{
@@ -39,5 +40,8 @@ body, html{
 .flex-center {
     display: flex;
     align-items: center;
+}
 
+.borderline {
+    border-bottom: 1px solid lightgrey;
 }
