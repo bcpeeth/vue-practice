@@ -12,7 +12,8 @@ p, li {
 
 
     &-boxed {
-        padding-right: 20px;
+        position: relative;
+        padding-right: 25px;
 
         &::-webkit-scrollbar {
             width: 5px;
@@ -25,6 +26,19 @@ p, li {
             background: #00A3AD;
             border-radius: 15px;
         }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 448px;
+            height: 25px;
+            background: linear-gradient(
+              rgba(255, 255, 255, 0.001),
+              rgb(243, 165, 165)
+            ); /* transparent keyword is broken in Safari */
+            pointer-events: none;
+          }
     }
 }
 
