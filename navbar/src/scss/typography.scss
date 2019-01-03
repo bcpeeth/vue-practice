@@ -31,7 +31,7 @@ p, li {
             content: '';
             position: absolute;
             bottom: 0;
-            width: 448px;
+            width: calc( 100% - 15px );
             height: 25px;
             background: linear-gradient(
               rgba(255, 255, 255, 0.001),

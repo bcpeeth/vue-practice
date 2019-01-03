@@ -20,7 +20,7 @@
           <p>Bekijk het filmpje voor een impressie van de Tour de Flexim!</p>
         </div>
         <div class="col-md-6 offset-md-1 img-block img-block-stretch">
-          <iframe width="100%" height="400px" src="https://www.youtube.com/embed/NtKh9aSO6xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="450px" src="https://www.youtube.com/embed/NtKh9aSO6xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
