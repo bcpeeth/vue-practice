@@ -9,37 +9,37 @@ p, li {
     ul {
         padding-left: 0;
     }
+}
 
+.text-block-boxed {
+    
+    padding-right: 25px;
+    padding-bottom: 15px;
 
-    &-boxed {
-        position: relative;
-        padding-right: 25px;
-
-        &::-webkit-scrollbar {
-            width: 5px;
-        }
-        &::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 5px rgb(199, 199, 199);
-            border-radius: 15px;
-        }
-        &::-webkit-scrollbar-thumb {
-            background: #00A3AD;
-            border-radius: 15px;
-        }
-
-        &::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            width: calc( 100% - 15px );
-            height: 25px;
-            background: linear-gradient(
-              rgba(255, 255, 255, 0.001),
-              rgb(243, 165, 165)
-            ); /* transparent keyword is broken in Safari */
-            pointer-events: none;
-          }
+    &::-webkit-scrollbar {
+        width: 5px;
     }
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(199, 199, 199);
+        border-radius: 15px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #00A3AD;
+        border-radius: 15px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: calc( 100% - 40px );
+        height: 45px;
+        background: linear-gradient(
+          rgba(255, 255, 255, 0.001),
+          white
+        ); /* transparent keyword is broken in Safari */
+        pointer-events: none;
+      }
 }
 
 .board-members {
