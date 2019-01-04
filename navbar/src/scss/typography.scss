@@ -1,18 +1,17 @@
 p, li {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .text-block {
-    max-height: 305px;
-    overflow: auto;
+  max-height: 305px;
+  overflow: auto;
 
-    ul {
-        padding-left: 0;
-    }
+  ul {
+      padding-left: 0;
+  }
 }
 
 .text-block-boxed {
-    
     padding-right: 25px;
     padding-bottom: 15px;
 
@@ -29,24 +28,24 @@ p, li {
     }
 
     &::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        width: calc( 100% - 40px );
-        height: 45px;
-        background: linear-gradient(
-          rgba(255, 255, 255, 0.001),
-          white
-        ); /* transparent keyword is broken in Safari */
-        pointer-events: none;
-      }
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: calc( 100% - 40px );
+      height: 45px;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.001),
+        white
+      ); /* transparent keyword is broken in Safari */
+      pointer-events: none;
+  }
 }
 
 .board-members {
-    h6 {
-        font-weight: 700;
-    }
-    span {
-        font-style: italic;
-    }
+  h6 {
+      font-weight: 700;
+  }
+  span {
+      font-style: italic;
+  }
 }

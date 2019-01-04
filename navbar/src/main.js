@@ -4,9 +4,6 @@ require('./main.scss');
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import VueAnnouncer from './components/vue-announcer'
-
-// Vue.use(VueAnnouncer)
 
 Vue.config.productionTip = false
 

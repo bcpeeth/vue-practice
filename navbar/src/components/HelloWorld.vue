@@ -3,7 +3,7 @@
     <HeroImage/>
     <div class="container"> <!--intro -->
       <div class="row flex-center py-5">
-        <div class="col-md-5 text-block">
+        <div class="col-md-5 offset-md-1 text-block">
           <h1>Oprichting</h1>
           <p>De Flexim Foundation is opgericht op 3 juli 2018 in Dordrecht op initiatief van een aantal medewerkers van Flexim Netherlands.</p>
           <p>De Flexim Foundation zet zich in voor diverse kwetsbare groepen binnen en buiten de Nederlandse samenleving. Deze kwetsbare groepen worden geholpen om hun levenscondities te verbeteren en toekomstperspectief te vergroten.</p>
@@ -28,7 +28,7 @@
         <div class="col-md-6 img-block">
           <img src="../assets/flexim-man.png" alt="">
         </div>
-        <div class="col-md-6 text-block">
+        <div class="col-md-6">
           <h1>Dit wordt bereikt door</h1>
           <div class="list-vertical">
             <ul>
@@ -46,7 +46,7 @@
     <div class="bg-lightgrey">
       <div class="container">
         <div class="row flex-center py-3">
-          <div class="col-md-5 text-block">
+          <div class="col-md-5 offset-md-1 text-block">
             <h1>Doelgroep</h1>
             <p>De doelgroep van de Flexim Foundation is een groep mensen in de samenleving die niet zelfredzaam is, eenzaam is, een lichamelijke of psychische handicap heeft of op of onder de armoedegrens leeft.</p>
           </div>
