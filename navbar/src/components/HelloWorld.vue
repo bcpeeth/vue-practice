@@ -28,7 +28,7 @@
         <div class="col-md-6 img-block">
           <img src="../assets/flexim-man.png" alt="">
         </div>
-        <div class="col-md-6 text-block">
+        <div class="col-md-6">
           <h1>Dit wordt bereikt door</h1>
           <div class="list-vertical">
             <ul>
