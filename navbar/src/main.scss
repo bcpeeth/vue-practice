@@ -5,41 +5,41 @@
 @import './scss/typography.scss';
 @import './scss/footer.scss';
 @import './scss/list.scss';
-@import './scss/readmore-toggle.scss';
+// @import './scss/readmore-toggle.scss';
 
 
 body, html{
-    height: 100vh;
+  height: 100vh;
 }
 
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #696969;
-    text-align: left;
-    // background-color: $gray-200;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #696969;
+  text-align: left;
+  // background-color: $gray-200;
 }
 
 .bg-beige {
-    background-color: bisque;
+  background-color: bisque;
 }
 
 .bg-blue {
-    width: 100%;
-    background-color: #00A3AD;
-    color: white;
+  width: 100%;
+  background-color: #00A3AD;
+  color: white;
 }
 
 .bg-lightgrey {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .borderline {
-    border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
