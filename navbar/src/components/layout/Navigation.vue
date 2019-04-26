@@ -16,22 +16,22 @@ export default {
       links: [
         {
           id: 0,
-          text: 'De Stichting',
-          page:'/HelloWorld'
+          text: 'Calculator',
+          page:'/Calculator'
         },
         {
           id: 1,
-          text: 'Nieuws',
-          page:'/Home'
+          text: 'Blog',
+          page:'/Blog'
         },
         {
           id: 2,
-          text: 'Projecten',
-          page:'/About'
+          text: 'Filter',
+          page:'/Filter'
         },
         {
           id: 3,
-          text: 'Informatie',
+          text: 'Chall4',
           page:'/Contact'
         }
       ]
