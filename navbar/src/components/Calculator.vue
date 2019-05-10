@@ -20,7 +20,7 @@
             <option>Beans</option>
             <option>Al Pastor</option>
           </select>
-          <p v-if="name">My favorite kind of taco is {{ name }}</p>
+          <p v-if="name">My favorite kind of food is {{ name }}.</p>
         </div>
       </div>
     </div>

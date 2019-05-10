@@ -1,10 +1,10 @@
 @import './scss/bootstrap/bootstrap.scss';
 @import './scss/normalize.scss';
 @import './scss/navbar.scss';
-@import './scss/images.scss';
+// @import './scss/images.scss';
 @import './scss/typography.scss';
 @import './scss/footer.scss';
-@import './scss/list.scss';
+// @import './scss/list.scss';
 
 @import './scss/header.scss';
 
@@ -12,8 +12,12 @@
 @import './scss/calculator.scss';
 @import './scss/blog.scss';
 @import './scss/filter.scss';
+@import './scss/photo_log.scss';
+@import './scss/home.scss';
+@import './scss/destinations.scss';
+// @import './scss/zorgthuis.scss';
 // @import './scss/readmore-toggle.scss';
-
+@import './_variables_customized.scss';
 
 body, html{
   height: 100vh;
@@ -25,7 +29,6 @@ body, html{
   -moz-osx-font-smoothing: grayscale;
   color: #696969;
   text-align: left;
-  // background-color: $gray-200;
 }
 
 .bg-beige {

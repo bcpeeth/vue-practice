@@ -1,0 +1,47 @@
+.destinations {
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'NTR', sans-serif;
+    background: #eee;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  .location-contain {
+    display: flex;
+    justify-content: center;
+    // flex-wrap: wrap;
+  }
+
+  .locations {    
+    display: flex;
+    min-height: 590px; 
+  }
+  
+  place {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px 20px;
+    margin: 10px;
+    
+    h2 {
+      margin: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    img {
+      margin: 10px;
+      align-self: center;
+    }
+
+
+  }
+}
+

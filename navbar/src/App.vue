@@ -11,12 +11,12 @@
 import Navigation from './components/layout/Navigation'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
+
 export default {
   name: 'app',
   components: {
     'Navigation': Navigation,
     'Header': Header,
-    // 'HeroImage': HeroImage,
     'Footer': Footer,
   }
 }
